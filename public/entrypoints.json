@@ -3,24 +3,25 @@
     {
       "coverImgUrl": "./Assets/Dashboard/Cubinia in Bedroom Arcadus.jpg",
       "title": "Cubinia in Bedroom Arcadus",
-      "metaTitle": "Design Cubinia in Bedroom Arcadus",
+      "metaTitle": "Design in Regular",
       "metaDesc": "from Ruglife",
       "link": "https://entry.explorug.com/roomview/1/"
     },
     {
       "coverImgUrl": "./Assets/Dashboard/Dream Kaleen in Roman Passage.jpg",
       "title": "Dream Kaleen in Roman Passage",
-      "metaTitle": "Design Dream Kaleen in Roman Passage",
+      "metaTitle": "Design in Video Room",
       "metaDesc": "from Ruglife",
       "link": "https://entry.explorug.com/roomview/3/"
     },
     {
-      "coverImgUrl": "./Assets/Dashboard/Atlasia in Seashore.jpg",
-      "title": "Atlasia in Seashore",
-      "metaTitle": "Design Atlasia in Seashore",
+      "coverImgUrl": "./Assets/Dashboard/Page 13.jpg",
+      "title": "Page 13",
+      "metaTitle": "Interactive Room",
       "metaDesc": "from Beyonddreams",
-      "link": "https://entry.explorug.com/roomview/2/"
+      "link": "https://beyonddreams.explorug.com/2/index.html?page=13"
     },
+    
     {
       "coverImgUrl": "./Assets/Dashboard/wordcloud.jpg",
       "title": "Word Cloud",
@@ -29,32 +30,18 @@
       "link": "https://beyonddreams.explorug.com/2/index.html?page=6"
     },
     {
-      "coverImgUrl": "./Assets/Dashboard/myroom.jpg",
-      "title": "My Room",
-      "metaTitle": "My Room",
-      "metaDesc": "from Beyonddreams",
-      "link": "https://explor.ug/takeapicture"
-    },
-    {
       "coverImgUrl": "./Assets/Dashboard/GIF animation.jpg",
-      "title": "Gif Animation",
-      "metaTitle": "Gif Animation",
+      "title": "Size Animation",
+      "metaTitle": "Size Animation",
       "metaDesc": " GIF ",
       "link": "https://demo.explorug.net/tests/sizeAnimation/sizeAnimation.html"
     },
     {
       "coverImgUrl": "./Assets/Dashboard/Monalisa.jpg",
       "title": "Mosaic",
-      "metaTitle": "Mosaic of Monalisa",
-      "metaDesc": "from Beyonddreams",
+      "metaTitle": "Photo Mosaic",
+      "metaDesc": "Mosaic of Monalisa from Beyonddreams",
       "link": "https://beyonddreams.explorug.com/2/index.html?page=12"
-    },
-    {
-      "coverImgUrl": "./Assets/Dashboard/Page 13.jpg",
-      "title": "Page 13",
-      "metaTitle": "Page 13",
-      "metaDesc": "from Beyonddreams",
-      "link": "https://beyonddreams.explorug.com/2/index.html?page=13"
     },
     {
       "coverImgUrl": "./Assets/Dashboard/Catalog.jpg",
@@ -69,6 +56,13 @@
       "metaTitle": "Website for Business",
       "metaDesc": "from Ruglife",
       "link": "https://explorug.net/ruglife/index-1.php"
+    },
+    {
+      "coverImgUrl": "./Assets/Dashboard/myroom.jpg",
+      "title": "My Room",
+      "metaTitle": "My Room",
+      "metaDesc": "from Beyonddreams",
+      "link": "https://explor.ug/takeapicture"
     }
   ]
 }
