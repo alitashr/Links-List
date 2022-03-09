@@ -1,0 +1,18 @@
+.at-entrypoints-dashboard {
+  margin: 1rem;
+}
+.entrypoints-cards {
+  max-height: calc(100% - 55px);
+  width: 100%;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+.ant-card-body {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.ant-card-head-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
