@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Card, Col, Row } from "antd";
-//import entries from "../entrypoints.json";
 
 const { Meta } = Card;
 const gridStyle = {
@@ -8,18 +7,18 @@ const gridStyle = {
   textAlign: "center",
 };
 
-const EntrypointsDashboard = () => {
-  const [entryPointsList, setEntryPointsList] = useState(null);
+const LinksDashboard = () => {
+  const [linksList, setLinksList] = useState(null);
   useEffect(() => {
     fetch("entrypoints.json")
       .then((res) => res.json())
       .then((data) => {
         console.log("data from entry", data);
-        setEntryPointsList(data.entries);
+        setLinksList(data.entries);
       });
   }, []);
 
-  //const entryPointsList = entries.entries;
+  //const linksList = entries.entries;
 
   const handleCardClick = (entrypoint) => {
     if (!entrypoint || !entrypoint.link) return;
@@ -30,8 +29,8 @@ const EntrypointsDashboard = () => {
       <Row>
         <Col span={24}>
           <Card title="Explorug Entry Points">
-            {entryPointsList &&
-              entryPointsList.map((entrypoint, index) => (
+            {linksList &&
+              linksList.map((entrypoint, index) => (
                 <Card.Grid key={index} style={gridStyle} onClick={() => handleCardClick(entrypoint)}>
                   <img
                     alt={entrypoint.title}
@@ -49,6 +48,6 @@ const EntrypointsDashboard = () => {
   );
 };
 
-EntrypointsDashboard.propTypes = {};
+LinksDashboard.propTypes = {};
 
-export default EntrypointsDashboard;
+export default LinksDashboard;
